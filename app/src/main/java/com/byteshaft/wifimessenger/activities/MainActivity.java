@@ -268,7 +268,6 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
         }
     }
 
-    /*********EDIT BY HASHAN SACHINTHA***********/
     private void openChatActivity(String username, String ipAddress, String userTable){
         Intent intent = new Intent(MainActivity.this, ChatActivity.class);
         //this is used to bring the chat activity to foreground
@@ -300,5 +299,4 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
         Toast.makeText (this, "Stop discovering..", Toast.LENGTH_SHORT).show ();
     }
 
-    /*********END EDIT BY HASHAN SACHINTHA***********/
 }
