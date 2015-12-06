@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+      <TextView
+            android:id="@+id/tv_contact_name_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:typeface="serif"
+            android:textSize="26dp"
+            android:textColor="#2740ce"
+            android:textStyle="bold"/>
+
+        <ListView
+            android:id="@+id/lv_chat"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:stackFromBottom="true"
+            android:layout_marginBottom="80dp"
+            android:transcriptMode="alwaysScroll"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="1dp"
+        android:background="#803F51B5">
+        <EditText
+            style="@style/Widget.AppCompat.EditText"
+            android:id="@+id/et_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:inputType="textShortMessage"
+            android:layout_weight="8"
+            android:background="@android:drawable/editbox_background_normal"/>
+        <ImageButton
+            style="@style/Widget.AppCompat.ImageButton"
+            android:id="@+id/button_chat_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_button_send"
+            android:src="@drawable/button_feedback"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dp"
+            android:layout_weight="2"/>
+    </LinearLayout>
+</RelativeLayout>

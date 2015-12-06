@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/saveDetails"
+        app:showAsAction="always"
+        android:title="Save"/>
+
+    <item
+        android:id="@+id/menu_overflow"
+        android:title=""
+        android:icon="@drawable/icon_settings"
+        android:orderInCategory="11111"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/contacts"
+                app:showAsAction="never"
+                android:title="Contacts"/>
+
+
+            <item
+                android:id="@+id/service_Tasks"
+                app:showAsAction="never"
+                android:title="Service Tasks"/>
+
+
+            <item
+                android:id="@+id/charge_summary"
+                app:showAsAction="never"
+                android:title="Charge Summary"/>
+
+
+            <item
+                android:id="@+id/capture_signature"
+                app:showAsAction="never"
+                android:title="Capture Signature"/>
+        </menu>
+    </item>
+
+</menu>
