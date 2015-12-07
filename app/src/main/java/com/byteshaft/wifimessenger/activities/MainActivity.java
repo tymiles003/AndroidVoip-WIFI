@@ -234,11 +234,13 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
     }
 
     @Override
-//on click, it reads data from text box, if empty, shows invalid notification,
-    //first interface, we get an edit text view to enter a username
-    //next, the button is to be pressed
-    // once the button is pressed, it inputs the username
-    //if the username length is less than 1, invalid username notification appears
+
+/*  on click, it reads data from text box, if empty, shows invalid notification,
+    first interface, we get an edit text view to enter a username
+    next, the button is to be pressed
+    once the button is pressed, it inputs the username
+    if the username length is less than 1, invalid username notification appears
+*/
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.buttonStart:
