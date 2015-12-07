@@ -414,7 +414,6 @@ public class ServiceHelpers {
         }
     };
 
-    /**********EDITED BY HASHAN SACHINTHA***********/
     private static void messageReceiveAction(String contact_name, String ipAddress, String user_table){
         Intent resultIntent = new Intent(AppGlobals.getContext(), ChatActivity.class);
         resultIntent.putExtra("CONTACT_NAME", contact_name);
@@ -423,7 +422,6 @@ public class ServiceHelpers {
         resultIntent.addFlags (Intent.FLAG_ACTIVITY_SINGLE_TOP);
         MainActivity.getInstance ().startActivity (resultIntent);
     }
-    /**********END EDITED BY HASHAN SACHINTHA***********/
 
     private static void showNotification(String title, String content, String uniqueId, String ip) {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(AppGlobals.getContext());
