@@ -242,7 +242,6 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.buttonStart:
-                Log.i("wifiMessenger", "Start button pressed");
                 String username = editTextUsername.getText().toString();
                 if (username.trim().length() < 1) {
                     Toast.makeText(getApplicationContext(), "Invalid Username", Toast.LENGTH_SHORT).show();
