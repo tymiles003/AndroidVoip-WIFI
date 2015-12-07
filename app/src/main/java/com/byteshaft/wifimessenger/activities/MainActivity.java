@@ -207,7 +207,6 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
         // when settings is clicked, the user gets visible on mainlayout
 
         if (id == R.id.action_toggleUserName){
-            Log.d ("debug", "toggle username clicked .........");
             toggleUserName ();
         }
 
