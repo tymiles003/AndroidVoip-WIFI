@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="EditText_Customized" parent="AppTheme">
+        <item name="colorControlNormal">#58f</item>
+        <item name="colorControlActivated">#58f</item>
+        <item name="colorControlHighlight">#58f</item>
+    </style>
+
 </resources>

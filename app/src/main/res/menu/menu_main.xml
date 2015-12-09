@@ -24,6 +24,10 @@
                   android:checkable="true"
                   app:showAsAction="never"/>
 
+            <item android:id="@+id/action_profile"
+                  android:title="Profile"
+                  app:showAsAction="never"/>
+
         </menu>
     </item>
 
